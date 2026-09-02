@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gamer Daksh Bot</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0b0b12;
+      color: white;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 25px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #24243a;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: #8b5cf6;
+    }
+
+    nav a {
+      color: #aaa;
+      text-decoration: none;
+      margin-left: 25px;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 60px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 span {
+      color: #8b5cf6;
+    }
+
+    .hero p {
+      color: #aaa;
+      max-width: 650px;
+      margin: auto;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 35px;
+      padding: 15px 30px;
+      background: #5865F2;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      opacity: 0.9;
+    }
+
+    .section {
+      padding: 70px 8%;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 35px;
+      margin-bottom: 40px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #151522;
+      border: 1px solid #27273a;
+      padding: 30px;
+      border-radius: 15px;
+    }
+
+    .card h3 {
+      margin: 15px 0 10px;
+    }
+
+    .card p {
+      color: #aaa;
+      line-height: 1.5;
+    }
+
+    .icon {
+      font-size: 35px;
+    }
+
+    .legal {
+      max-width: 850px;
+      margin: auto;
+      text-align: left;
+    }
+
+    .legal h2 {
+      margin-top: 45px;
+      margin-bottom: 15px;
+    }
+
+    .legal p {
+      color: #aaa;
+      line-height: 1.7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      border-top: 1px solid #24243a;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 40px;
+      }
+
+      nav {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Gamer <span>Daksh</span></div>
+
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#privacy">Privacy</a>
+    <a href="#terms">Terms</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Gamer <span>Daksh</span> Bot</h1>
+
+  <p>
+    A powerful Discord bot made for gaming communities.
+    Manage your server, keep your community active,
+    and bring useful features together in one bot.
+  </p>
+
+  <a
+    class="button"
+    href="https://discord.com/oauth2/authorize?client_id=1544671841732403270&scope=bot%20applications.commands&permissions=8"
+    target="_blank">
+    ➕ Add to Discord
+  </a>
+</section>
+
+<section class="section" id="features">
+
+  <h2>⚡ Features</h2>
+
+  <div class="features">
+
+    <div class="card">
+      <div class="icon">📺</div>
+      <h3>YouTube Notifications</h3>
+      <p>
+        Automatically notify your community when new videos are uploaded.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🛡️</div>
+      <h3>Moderation</h3>
+      <p>
+        Keep your Discord server organized and protected with moderation tools.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🎁</div>
+      <h3>Giveaways</h3>
+      <p>
+        Create exciting giveaways and community events.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🎫</div>
+      <h3>Tickets</h3>
+      <p>
+        Give members an easy way to contact staff and receive support.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🏆</div>
+      <h3>Leaderboards</h3>
+      <p>
+        Reward active members with message and invite competitions.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🎮</div>
+      <h3>Gaming Community</h3>
+      <p>
+        Built for gaming communities including Roblox and many other games.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" id="privacy">
+
+  <div class="legal">
+
+    <h2>🔐 Privacy Policy</h2>
+
+    <p>
+      Gamer Daksh Bot only uses information required to provide
+      its Discord features. We do not intentionally collect or sell
+      personal information. Data required for bot functionality
+      may be stored securely and used only for providing the requested services.
+    </p>
+
+    <h2>📋 Terms of Service</h2>
+
+    <p>
+      By using Gamer Daksh Bot, you agree to use the bot responsibly
+      and follow Discord's Terms of Service and Community Guidelines.
+      We may restrict access to the bot if it is abused or used improperly.
+    </p>
+
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Gamer Daksh Bot • Made for gaming communities 🎮
+</footer>
+
+</body>
+</html>
